@@ -14,31 +14,50 @@ namespace Gravity_Flip
     
     public class Kata
     {
-        public static int Flip(char dir, int[] arr)
+        public static int[] Flip(char dir, int[] arr)
         {
-            int returnInt = 0;
+            int[] returnArr = new int[arr.Length];
+            int holdInt = 0;
 
             for(int i = 0; i < arr.Length; i++)
             {
-                if(returnInt < arr[i])
+                if(arr[i] > holdInt)
                 {
-                    returnInt = arr[i];
+                    holdInt = arr[i];
                 }
+
+                if(i == arr.Length - 1)
+                {
+                    arr[i] = holdInt;
+                }
+
             }
 
-            return returnInt;
+            return arr;
+        }
+
+        public static void WriteArray(int[] array)
+        {
+            foreach(int number in array)
+            {
+                Console.WriteLine(number);
+            }
         }
     }
+
+
 
 
     class Program
     {
         static void Main(string[] args)
         {
-            int[] testArray = new int[] { 3, 22, 1, 5 };
+            int[] testArray = new int[] { 4, 0, 2, 3 };
             Kata kata = new Kata();
 
             Console.WriteLine(Kata.Flip('R', testArray));
+
+            Kata.WriteArray(Kata.Flip('R', testArray));
         }
     }
 }
