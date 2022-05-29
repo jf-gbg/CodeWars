@@ -9,7 +9,8 @@ namespace Gravity_Flip
     //Find the largest number in an array and return it. DONE
     //Find the largest number in an array and place it at the end of the return array. DONE
     //Sort an array of 2 numers and return it. DONE
-    //Sort an array of 3 numbers and return it.
+    //Sort an array of 3 numbers and return it. DONE
+    //Add funcionality to reverse sort. DONE
 
     public class Kata
     {
@@ -19,25 +20,62 @@ namespace Gravity_Flip
             int num1 = 0;
             int num2 = 0;
 
-            for (int i = 0; i < arr.Length - 2; i++)
+            if (dir == 'R')
             {
-                Kata.WriteArray(arr);
-
-                for (int j = 0; j < arr.Length - 1; j++)
+                for (int i = 0; i < arr.Length - 1; i++)
                 {
-                    num1 = arr[j];
-                    num2 = arr[j + 1];
+                    Kata.WriteArray(arr);
 
-                    if (num1 > num2)
+                    for (int j = 0; j < arr.Length - 1; j++)
                     {
-                        holdInt = num2;
-                        arr[j + 1] = num1;
-                        arr[j] = holdInt;
-                    } 
+                        num1 = arr[j];
+                        num2 = arr[j + 1];
+
+                        if (num1 > num2)
+                        {
+                            holdInt = num2;
+                            arr[j + 1] = num1;
+                            arr[j] = holdInt;
+                        }
+                    }
+                }  
+            }
+            else
+            {
+                for (int i = 0; i < arr.Length - 1; i++)
+                {
+                    Kata.WriteArray(arr);
+
+                    for (int j = 0; j < arr.Length - 1; j++)
+                    {
+                        num1 = arr[j];
+                        num2 = arr[j + 1];
+
+                        if (num1 < num2)
+                        {
+                            holdInt = num2;
+                            arr[j + 1] = num1;
+                            arr[j] = holdInt;
+                        }
+                    }
                 }
-            } 
+            }
 
             return arr;
+        }
+
+        public static int[] QuickFlip(char dir, int[] arr)
+        {
+            Array.Sort(arr);
+            if (dir == 'R')
+            {
+                return arr;
+            }
+            else
+            {
+                Array.Reverse(arr);
+                return arr;
+            }
         }
 
         public static void WriteArray(int[] array)
@@ -55,10 +93,10 @@ namespace Gravity_Flip
     {
         static void Main(string[] args)
         {
-            int[] testArray = new int[] { 3, 2, 1, 2 };
+            int[] testArray = new int[] { 1, 4, 5, 3, 5 };
             Kata kata = new Kata();
 
-            Kata.WriteArray(Kata.Flip('R', testArray));
+            Kata.WriteArray(Kata.Flip('L', testArray));
         }
     }
 }
