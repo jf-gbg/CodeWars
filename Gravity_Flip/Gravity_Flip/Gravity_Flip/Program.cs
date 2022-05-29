@@ -7,31 +7,32 @@ namespace Gravity_Flip
     //Sort an array of numbers either asscending or decending based on whether the method recieves L or R as a parameter.
     //Divide
     //Find the largest number in an array and return it. DONE
-    //Find the largest number in an array and place it at the front of the return array. 
-    //Sort an array of 2 numers and return it. 
+    //Find the largest number in an array and place it at the end of the return array. DONE
+    //Sort an array of 2 numers and return it. DONE
     //Sort an array of 3 numbers and return it.
 
-    
     public class Kata
     {
         public static int[] Flip(char dir, int[] arr)
         {
-            int[] returnArr = new int[arr.Length];
+            Kata.WriteArray(arr);
+
             int holdInt = 0;
+            int num1 = 0;
+            int num2 = 0;
 
-            for(int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                if(arr[i] > holdInt)
-                {
-                    holdInt = arr[i];
-                }
+                num1 = arr[i];
+                num2 = arr[i + 1];
 
-                if(i == arr.Length - 1)
+                if (num1 > num2)
                 {
+                    holdInt = num2;
+                    arr[i + 1] = num1;
                     arr[i] = holdInt;
                 }
-
-            }
+            } 
 
             return arr;
         }
@@ -40,22 +41,19 @@ namespace Gravity_Flip
         {
             foreach(int number in array)
             {
-                Console.WriteLine(number);
+                Console.Write(number + " ");
             }
+
+            Console.WriteLine();
         }
     }
-
-
-
 
     class Program
     {
         static void Main(string[] args)
         {
-            int[] testArray = new int[] { 4, 0, 2, 3 };
+            int[] testArray = new int[] { 5, 3 };
             Kata kata = new Kata();
-
-            Console.WriteLine(Kata.Flip('R', testArray));
 
             Kata.WriteArray(Kata.Flip('R', testArray));
         }
