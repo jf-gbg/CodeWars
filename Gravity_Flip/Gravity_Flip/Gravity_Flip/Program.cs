@@ -15,22 +15,25 @@ namespace Gravity_Flip
     {
         public static int[] Flip(char dir, int[] arr)
         {
-            Kata.WriteArray(arr);
-
             int holdInt = 0;
             int num1 = 0;
             int num2 = 0;
 
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length - 2; i++)
             {
-                num1 = arr[i];
-                num2 = arr[i + 1];
+                Kata.WriteArray(arr);
 
-                if (num1 > num2)
+                for (int j = 0; j < arr.Length - 1; j++)
                 {
-                    holdInt = num2;
-                    arr[i + 1] = num1;
-                    arr[i] = holdInt;
+                    num1 = arr[j];
+                    num2 = arr[j + 1];
+
+                    if (num1 > num2)
+                    {
+                        holdInt = num2;
+                        arr[j + 1] = num1;
+                        arr[j] = holdInt;
+                    } 
                 }
             } 
 
@@ -52,7 +55,7 @@ namespace Gravity_Flip
     {
         static void Main(string[] args)
         {
-            int[] testArray = new int[] { 5, 3 };
+            int[] testArray = new int[] { 3, 2, 1, 2 };
             Kata kata = new Kata();
 
             Kata.WriteArray(Kata.Flip('R', testArray));
