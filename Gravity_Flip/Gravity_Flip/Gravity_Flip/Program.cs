@@ -14,6 +14,7 @@ namespace Gravity_Flip
 
     public class Kata
     {
+        //Solution using my own workings. Test speed 32.5990
         public static int[] Flip(char dir, int[] arr)
         {
             int holdInt = 0;
@@ -64,6 +65,7 @@ namespace Gravity_Flip
             return arr;
         }
 
+        //Solution using inbuilt C# method. Test speed 31.4300
         public static int[] QuickFlip(char dir, int[] arr)
         {
             Array.Sort(arr);

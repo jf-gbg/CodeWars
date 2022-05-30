@@ -1,0 +1,15 @@
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\bin\Debug\net6.0\Check_Same_Case.exe
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\bin\Debug\net6.0\Check_Same_Case.deps.json
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\bin\Debug\net6.0\Check_Same_Case.runtimeconfig.json
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\bin\Debug\net6.0\Check_Same_Case.dll
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\bin\Debug\net6.0\Check_Same_Case.pdb
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.csproj.AssemblyReference.cache
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.AssemblyInfoInputs.cache
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.AssemblyInfo.cs
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.csproj.CoreCompileInputs.cache
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.dll
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\refint\Check_Same_Case.dll
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.pdb
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\Check_Same_Case.genruntimeconfig.cache
+C:\Users\malmm\OneDrive\Documents\Programming\C#\CodeWars\Check_Same_Case\Check_Same_Case\obj\Debug\net6.0\ref\Check_Same_Case.dll
