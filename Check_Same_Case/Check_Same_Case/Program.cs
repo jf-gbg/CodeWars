@@ -7,6 +7,8 @@ namespace Check_Same_Case
 {
     public class Kata
     {
+
+        //using built in C# methods (24.6ms in test)
         public static int SameCase(char a, char b)
         {
             if(!Char.IsLetter(a) || !Char.IsLetter(b))
@@ -24,7 +26,7 @@ namespace Check_Same_Case
             }
         }
 
-        //My own methods.
+        //My own methods.(18.12ms in test)
         public static int SameCaseManual(char a, char b)
         {
             var resultA = CheckCase(a);
