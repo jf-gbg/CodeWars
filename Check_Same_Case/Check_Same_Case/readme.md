@@ -26,9 +26,9 @@ Possible Solutions
 
 
 Divide the problem
-    Create a method that returns the UTF-16 value of a single character.
-    Update this method to return a 1 if the charcter is uppercase, a 0 if the character is lowercase and a -1 if it is not a letter. 
-    Update this method to work with 2 chars, returning the value for each in a single int.
+    Create a method that returns the UTF-16 value of a single character. DONE
+    Update this method to return a 1 if the charcter is uppercase, a 0 if the character is lowercase and a -1 if it is not a letter. DONE   
+    Update this method to work with 2 chars, returning the value for each in a single int.  
     Update this method to compare the 2 numbers and produce the final result number which is then returned. 
     Consider if the entire method could be simplified to take out the number conversion step.
 
