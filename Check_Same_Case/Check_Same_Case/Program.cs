@@ -1,6 +1,6 @@
 ﻿using System;
-//if character a and character b are both letters check if they are lower case.
 //if either is not a letter return -1
+//if character a and character b are both letters then compare their cases.
 //if either one of the two letters is not lower case return 0
 
 namespace Check_Same_Case
