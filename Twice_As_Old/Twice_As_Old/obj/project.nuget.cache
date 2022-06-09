@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4yg1EHIiz5djij09oUAlyMM6KHEckSHzGqsH0DtZCurjhBBR6M5GROKfGEfXTNStx4PTCbFW2HA3MmGM3+ieOw==",
+  "dgSpecHash": "rrvusJeS2tJimfEA7gNI6i/y07Gi/pWDZfNyivy9IfXHZTrJsXbfiXJ6M+qj+uv1ozqUPxxacabHk0TWS1RgrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malmm\\OneDrive\\Documents\\Programming\\C#\\CodeWars\\Twice_As_Old\\Twice_As_Old\\Twice_As_Old.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Twice_As_Old/Twice_As_Old/Twice_As_Old.csproj",
+  "expectedPackageFiles": [
+    "/Users/Dev/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
