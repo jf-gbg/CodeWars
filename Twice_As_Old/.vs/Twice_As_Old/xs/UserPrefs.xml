@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{8FEBACA3-44C8-4E15-9185-C3F5E354DAA4}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Twice_As_Old/ReadMe.md">
+  <MonoDevelop.Ide.ItemProperties.Twice__As__Old PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Twice_As_Old/Program.cs">
     <Files>
-      <File FileName="Twice_As_Old/Program.cs" Line="28" Column="69" />
+      <File FileName="Twice_As_Old/Program.cs" Line="18" Column="60" />
       <File FileName="Twice_As_Old/ReadMe.md" Line="7" Column="1" />
+      <File FileName="Twice_As_Old.sln" Line="1" Column="1" />
+      <File FileName="Twice_As_Old/Twice_As_Old.csproj" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,8 +24,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.ItemProperties.Twice__As__Old PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

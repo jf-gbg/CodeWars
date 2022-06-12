@@ -15,17 +15,14 @@ namespace Twice_As_Old
         {
             public static int TwiceAsOld(int dadYears, int sonYears)
             {
-                int sonsAgeDoubled = sonYears * 2;
-                int years = dadYears - sonsAgeDoubled;
-
-                return years;
+                return Math.Abs( dadYears - sonYears * 2 );
             }
         }
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine(TwiceAsOldSolution.TwiceAsOld(30, 10));
+            Console.WriteLine(TwiceAsOldSolution.TwiceAsOld(45, 30));
         }
     }
 }
