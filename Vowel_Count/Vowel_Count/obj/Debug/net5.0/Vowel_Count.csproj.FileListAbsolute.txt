@@ -1,0 +1,16 @@
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/bin/Debug/net5.0/Vowel_Count
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/bin/Debug/net5.0/Vowel_Count.deps.json
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/bin/Debug/net5.0/Vowel_Count.runtimeconfig.json
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/bin/Debug/net5.0/Vowel_Count.runtimeconfig.dev.json
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/bin/Debug/net5.0/Vowel_Count.dll
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/bin/Debug/net5.0/Vowel_Count.pdb
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.csproj.AssemblyReference.cache
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.AssemblyInfoInputs.cache
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.AssemblyInfo.cs
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.csproj.CoreCompileInputs.cache
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.dll
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/refint/Vowel_Count.dll
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.pdb
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/Vowel_Count.genruntimeconfig.cache
+/Users/Dev/OneDrive/Documents/Programming/C#/CodeWars/Vowel_Count/Vowel_Count/obj/Debug/net5.0/ref/Vowel_Count.dll

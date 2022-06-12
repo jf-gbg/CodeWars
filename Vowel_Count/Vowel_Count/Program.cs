@@ -7,7 +7,27 @@ public static class Kata
     {
         int vowelCount = 0;
 
-        // Your code here
+        foreach(char letter in str)
+        {
+            switch (letter)
+            {
+                case 'a':
+                    vowelCount += 1;
+                    break;
+                case 'e':
+                    vowelCount += 1;
+                    break;
+                case 'i':
+                    vowelCount += 1;
+                    break;
+                case 'o':
+                    vowelCount += 1;
+                    break;
+                case 'u':
+                    vowelCount += 1;
+                    break;
+            }
+        }
 
         return vowelCount;
     }
@@ -19,7 +39,7 @@ namespace Vowel_Count
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Kata.GetVowelCount("abrakadabra"));
         }
     }
 }
