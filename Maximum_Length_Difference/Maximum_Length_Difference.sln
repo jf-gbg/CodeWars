@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum_Length_Difference", "Maximum_Length_Difference\Maximum_Length_Difference.csproj", "{E438485C-B1F3-4BB6-91BE-8277181F7550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E438485C-B1F3-4BB6-91BE-8277181F7550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E438485C-B1F3-4BB6-91BE-8277181F7550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E438485C-B1F3-4BB6-91BE-8277181F7550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E438485C-B1F3-4BB6-91BE-8277181F7550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {080DE581-2B81-4595-8185-22FF8EC5BE22}
+	EndGlobalSection
+EndGlobal
