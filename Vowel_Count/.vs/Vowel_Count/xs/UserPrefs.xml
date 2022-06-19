@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{D74BA335-F89F-4001-A08C-FE2A7863C323}|Default">
-  <MonoDevelop.Ide.ItemProperties.Vowel__Count FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vowel_Count/Program.cs">
+    <Files>
+      <File FileName="Vowel_Count/Program.cs" Line="8" Column="1" />
+      <File FileName="Vowel_Count/ReadMe.md" Line="5" Column="72" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Vowel_Count" expanded="True">
+            <Node name="Vowel_Count" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Vowel__Count PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
